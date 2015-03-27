@@ -1,0 +1,16 @@
+CPU: 1.193182 MHz
+Video: CPU*3
+Frame Rate: 60Hz
+
+1,193,182 cycles/sec / 60 frames/sec = 19,886.36 cycles/frame
+19,886.36 cycles/frame / 262 lines/frame = 75.90 cycles/line
+vblank * 75.90 cycles/line = 2808.3 cycles
+vsync * 75.90 cycles/line = 227.70 cycles
+picture * 75.90 cycles/line = 14572.80 cycles
+overscan * 75.90 cycles/line = 2777.00 cycles
+
+vsync 3 lines
+vblank 37 lines
+picture 192 lines
+overscan 30 lines
+total 262 lines
